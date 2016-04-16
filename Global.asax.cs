@@ -14,7 +14,7 @@ namespace MVC1
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas321();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
